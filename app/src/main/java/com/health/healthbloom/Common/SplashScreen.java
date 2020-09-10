@@ -32,6 +32,7 @@ public class SplashScreen extends AppCompatActivity {
         startup = findViewById(R.id.startup);
 
         startup.setAnimation(dropdown);
+//        test comment
 
         new Handler().postDelayed(new Runnable() {
             @Override
