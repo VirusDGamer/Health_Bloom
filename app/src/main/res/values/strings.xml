@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Health Bloom</string>
+    <string name="logo_name">Bloom ur Health like a Flower</string>
+    <string name="slogan_name">We will help u Bloom ur Health</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="needhelp">Need Help?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="createaccnt">Create New Account</string>
+
+
 </resources>
