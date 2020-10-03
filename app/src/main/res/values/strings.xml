@@ -2,14 +2,61 @@
     <string name="app_name">Health Bloom</string>
     <string name="logo_name">Bloom ur Health like a Flower</string>
     <string name="slogan_name">We will help u Bloom ur Health</string>
+
+
+    <string name="ok">OK</string>
+
+
+    <!--  Login/Signup  -->
+
     <string name="login">Login</string>
     <string name="signup">Signup</string>
+    <string name="next">Next</string>
     <string name="needhelp">Need Help?</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="entername">Enter Full Name</string>
+    <string name="email">Email</string>
+    <string name="phoneno">Enter Phone Number</string>
     <string name="rememberme">Remember Me</string>
-    <string name="forgotpass">Forgot Password?</string>
     <string name="createaccnt">Create New Account</string>
+    <string name="existinguser">Already Have an Account? Login</string>
 
+    <!--  OTP / Forgot Password Screen  -->
+
+    <string name="otp_code_text">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time Password Sent on</string>
+
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="forgotpassdetails">Enter the Email for which you want to reset your Password.</string>
+
+    <string name="resetpassselection">Which Contact detail do you want to reset your Password with?</string>
+    <string name="mode">Mode Selection</string>
+    <string name="viasms">Via SMS</string>
+    <string name="viaemail">Via Email</string>
+
+
+    <string name="newpass">New Password</string>
+    <string name="enternewpass">Enter New Password</string>
+    <string name="confpass">Confirm Password</string>
+    <string name="newpassdetails">   You have been Verified!  ✅\nCreate a new Password to Login into your Account.</string>
+
+    <string name="passupdated">Your Password has been Updated Successfully.</string>
+
+
+    <!-- Symptoms Array -->
+
+    <string-array name="symps">
+
+        <item>Cold</item>
+        <item>Head Ache</item>
+        <item>Stomach Ache</item>
+        <item>Cough</item>
+        <item>Corona</item>
+        <item>Spine Ache</item>
+        <item>Dengue</item>
+
+    </string-array>
 
 </resources>

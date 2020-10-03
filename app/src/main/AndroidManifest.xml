@@ -9,9 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".User.LoginOrSignup"></activity>
-        <activity android:name=".User.Dashboard" />
-        <activity android:name=".User.Login" />
+        <activity android:name=".Common.SymptomSearch"></activity>
+        <activity android:name=".User.Account.ChangePassSuccessPromt" />
+        <activity android:name=".User.Account.CreateNewPass" />
+        <activity android:name=".User.Account.ModeOfPassReset" />
+        <activity android:name=".User.Account.ForgotPassword" />
+        <activity android:name=".User.Account.OtpVerification" />
+        <activity android:name=".User.Account.Signup3" />
+        <activity android:name=".User.Account.Signup2" />
+        <activity android:name=".User.Account.Signup1" />
+        <activity android:name=".User.Account.LoginOrSignup" />
+        <activity android:name=".Common.Dashboard" />
+        <activity android:name=".User.Account.Login" />
         <activity android:name=".Common.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
