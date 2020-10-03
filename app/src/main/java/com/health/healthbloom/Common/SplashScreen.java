@@ -10,9 +10,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import com.health.healthbloom.R;
-import com.health.healthbloom.User.Dashboard;
-import com.health.healthbloom.User.Login;
-import com.health.healthbloom.User.LoginOrSignup;
+import com.health.healthbloom.User.Account.LoginOrSignup;
+import com.health.healthbloom.User.Account.ModeOfPassReset;
 
 import pl.droidsonroids.gif.GifImageView;
 
