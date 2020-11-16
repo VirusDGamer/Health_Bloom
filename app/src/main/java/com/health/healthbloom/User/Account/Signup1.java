@@ -29,15 +29,15 @@ public class Signup1 extends AppCompatActivity {
         setContentView(R.layout.activity_signup1);
 
         // Hooks
-        title = findViewById(R.id.title_signup1);
-        backBtn = findViewById(R.id.back_btn_signup1);
-        next = findViewById(R.id.next_btn_signup1);
-        existingUser = findViewById(R.id.existing_account_btn_signup1);
-        fullName = findViewById(R.id.user_full_name);
-        username = findViewById(R.id.username_signup);
-        userPassword = findViewById(R.id.user_password_signup);
-        email = findViewById(R.id.email_address);
-        confirmationPassword = findViewById(R.id.user_password_confirm_signup);
+            title = findViewById(R.id.title_signup1);
+            backBtn = findViewById(R.id.back_btn_signup1);
+            next = findViewById(R.id.next_btn_signup1);
+            existingUser = findViewById(R.id.existing_account_btn_signup1);
+            fullName = findViewById(R.id.user_full_name);
+            username = findViewById(R.id.username_signup);
+            userPassword = findViewById(R.id.user_password_signup);
+            email = findViewById(R.id.email_address);
+            confirmationPassword = findViewById(R.id.user_password_confirm_signup);
     }
 
     public void nextSignupScreen(View view) {
@@ -52,7 +52,7 @@ public class Signup1 extends AppCompatActivity {
         // Data passing to next activity
         intent.putExtra("fullName", fullName.getEditText().getText().toString().trim());
         intent.putExtra("userName", userPassword.getEditText().getText().toString().trim());
-        intent.putExtra("eamil", email.getEditText().getText().toString().trim());
+        intent.putExtra("email", email.getEditText().getText().toString().trim());
         intent.putExtra("password", userPassword.getEditText().getText().toString().trim());
 
         // Transition Animations
