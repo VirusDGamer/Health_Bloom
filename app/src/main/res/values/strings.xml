@@ -49,13 +49,10 @@
 
     <string-array name="symps">
 
-        <item>Cold</item>
+        <item>Fever</item>
         <item>Head Ache</item>
         <item>Stomach Ache</item>
         <item>Cough</item>
-        <item>Corona</item>
-        <item>Spine Ache</item>
-        <item>Dengue</item>
 
     </string-array>
 

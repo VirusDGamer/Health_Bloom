@@ -28,7 +28,7 @@ public class Signup1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup1);
 
-        // Hooks
+        // Hooks.
             title = findViewById(R.id.title_signup1);
             backBtn = findViewById(R.id.back_btn_signup1);
             next = findViewById(R.id.next_btn_signup1);
