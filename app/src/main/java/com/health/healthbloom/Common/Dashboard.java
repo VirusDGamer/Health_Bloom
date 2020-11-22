@@ -32,4 +32,8 @@ public class Dashboard extends AppCompatActivity {
     public void callUnfitActivity(View view){
         startActivity(new Intent(getApplicationContext(), SymptomSearch.class));
     }
+
+    public void callFitActivity(View view){
+        startActivity(new Intent(getApplicationContext(), Exercises.class));
+    }
 }

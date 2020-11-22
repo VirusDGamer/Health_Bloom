@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Common.SymptomSearch"></activity>
+        <activity android:name=".Common.FinalResult"></activity>
+        <activity android:name=".Common.Exercises" />
+        <activity android:name=".Common.SymptomSearch" />
         <activity android:name=".User.Account.ChangePassSuccessPromt" />
         <activity android:name=".User.Account.CreateNewPass" />
         <activity android:name=".User.Account.ModeOfPassReset" />

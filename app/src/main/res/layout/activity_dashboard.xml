@@ -110,9 +110,10 @@
                     android:layout_toEndOf="@id/feeling_happy_icon" />
 
                 <Button
-                    android:id="@+id/feeling_happy"
+                    android:id="@+id/feeling_healthy"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:onClick="callFitActivity"
                     android:background="@color/transparent"/>
 
             </RelativeLayout>
